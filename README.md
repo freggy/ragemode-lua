@@ -1,4 +1,4 @@
-# RageMode lua
+# RageMode
 
 Simple implementation of RageMode (basically One In The Chamber with exploding arrows) using Lua.
 Goal was to make a PoC showcasing the simplicity of using Lua to write plugins instead of having to step
@@ -17,9 +17,9 @@ achieve the same thing in Java.
 
 But there are a few things that could be improved: 
 
-* There has to be auto-completion when interacting with Minecraft APIs. Current worklfow had me browsing the Javadocs to get information about functions, params etc. (big PITA). One possible solution for this could be generating definitions for a [Lua LSP](https://github.com/luals/lua-language-server) based on Spigot Javadocs.
+* There has to be auto-completion when interacting with Minecraft APIs. Current workflow had me browsing the Javadocs to get information about functions, params etc. (big PITA). One possible solution for this could be generating definitions for a [Lua LSP](https://github.com/luals/lua-language-server) based on Spigot Javadocs.
 
-* It could be useful investigating if LuaJIT can be used instead of luaj. LuaJIT provides a more performant interpreter and is actively maintained unlike luaj which seems abandoned. See https://github.com/gudzpoz/luajava
+* It could be useful investigating if LuaJIT can be used instead of luaj. LuaJIT provides a more performant interpreter and is actively maintained unlike luaj which seems abandoned. What could be used: https://github.com/gudzpoz/luajava
 
 ### Running
 
